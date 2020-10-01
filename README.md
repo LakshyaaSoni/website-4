@@ -1,4 +1,4 @@
-# MCSN
+# MCSN : An Amazing Project
 
 This repository contains all of the services used to run [mcsn.gg](https://mcsn.gg), a website built around speedrunning events, handling event planning, runner histories, real-time run management, and more.
 
@@ -54,4 +54,4 @@ An architectural overview of how everything fits together and why things are sep
 
 # Deployment
 
-The process of creating a full production deployment (at least of the API service) is provided in `mcsn_api/README.md`. To summarize, this project uses Ansible to provision servers with appropriate permissions, firewalls, and user accounts to build and run generic services. It does _not yet_ create specialized servers for difference services.
+The process of creating a full production deployment (at least of the API service) is provided in `mcsn_api/README.md`. To summarize, this project uses Ansible to provision servers with appropriate permissions, firewalls, and user accounts to build and run generic services. It does _not yet_ create specialized servers for different services.
